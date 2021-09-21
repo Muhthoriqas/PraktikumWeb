@@ -1,0 +1,62 @@
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    width: 500px;
+    margin: 30px auto;
+    background: rgba(255, 255, 255, .6);
+    text-align: center;
+    padding: 15px;
+}
+
+
+#logo {
+    font-size: 1.1em;
+    color:black;
+    font-weight: bold;
+}
+
+#userinput {
+    height: 2em;
+    padding: 0 5px;
+}
+
+#userinput:hover {
+    background: #110;
+    color: #fff;
+}
+
+#add {
+    height: 2em;
+    width: 6em;
+    border-radius: 8px;
+    background: grey;
+    font-weight: bold;
+}
+
+#add:hover {
+    background: #011112;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+span {
+    font-size: 1.5em;
+    line-height: 1.8em;
+    position: relative;
+}
+
+
+.delete {
+    border-radius: 10px;
+    background: red;
+}
+
+li:hover .delete {
+    opacity: 1;
+}
