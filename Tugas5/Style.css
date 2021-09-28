@@ -1,0 +1,64 @@
+
+.list-item{
+     margin-bottom: 8px;
+}
+        
+.list-item >p,button{
+    display:  inline;
+}
+        
+.list-item > p{
+    margin-right: 8px;
+}
+
+.container {
+    width: 500px;
+    margin: 30px auto;
+    background: rgba(255, 255, 255, .6);
+    text-align: center;
+    padding: 15px;
+}
+
+
+#logo {
+    font-size: 1.1em;
+    color:black;
+    font-weight: bold;
+}
+
+#btn-add-item {
+    height: 2em;
+    width: 6em;
+    border-radius: 8px;
+    background: grey;
+    font-weight: bold;
+}
+
+#btn-add-item:hover {
+    background: #011112;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+.delete {
+    border-radius: 6px;
+    background: rgba(255, 6, 6, 0.905);
+}
+
+li:hover .delete {
+    opacity: 1;
+}
+
+.counter {
+    border-radius: 6px;
+    background: grey;
+    color: white;
+    font-weight: bold;
+}
+
+li:hover .counter {
+    opacity: 1;
+}
